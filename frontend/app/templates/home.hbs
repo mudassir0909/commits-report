@@ -1,0 +1,7 @@
+{{#view Metro.Page secondary=true span=7 hLevel=1 title="Github Login" iconClass="icon-github"}}
+  {{#view Metro.PageRegion}}
+    {{view Metro.TextField placeholder="Username" valueBinding="controller.username"}}
+    {{view Metro.PasswordField placeholder="Password" valueBinding="controller.password"}}
+    {{view Metro.Button iconClass="icon-key" label="Sign In" place="right" backgroundColor="darken" foregroundColor="white" action="login" targetBinding="controller"}}
+  {{/view}}
+{{/view}}

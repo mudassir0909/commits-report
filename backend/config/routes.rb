@@ -1,4 +1,6 @@
 App::Application.routes.draw do
+  match 'repositories' => 'user#repositories'
+  match 'github_logins' => 'user#github_login'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

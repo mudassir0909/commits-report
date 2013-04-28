@@ -19,9 +19,9 @@ exports.config =
         before: [
           'vendor/scripts/console-helper.js',
           'vendor/scripts/jquery-1.9.0.min.js',
-          'vendor/scripts/handlebars-1.0.rc.2.js',
-          'vendor/scripts/ember-latest.js',
-          'vendor/scripts/ember-data-latest.js',
+          'vendor/scripts/handlebars.js',
+          'vendor/scripts/ember.js',
+          'vendor/scripts/ember-data.js',
           'vendor/scripts/metro_ui/accordion.js',
           'vendor/scripts/metro_ui/buttonset.js',
           'vendor/scripts/metro_ui/calendar.js',
