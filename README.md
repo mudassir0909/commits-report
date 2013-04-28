@@ -5,6 +5,7 @@
 [SASS](http://sass-lang.com/) support<br>
 [Metro UI CSS](http://metroui.org.ua/) for UI styling
 
+
 Navigate into frontend folder and execute
 <pre>
 $ npm install
